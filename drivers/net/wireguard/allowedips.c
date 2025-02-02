@@ -5,6 +5,7 @@
 
 #include "allowedips.h"
 #include "peer.h"
+#include <linux/unaligned/be_struct.h>
 
 static struct kmem_cache *node_cache;
 
